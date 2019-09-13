@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap&subset=greek-ext');
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-image: url('https://unsplash.it/1920/1080?blur');
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100%;
+    color: #333333;
+    mix-blend-mode: difference;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
 .container{
+    background-color: #ffffff66;
+    height: 100%;
+    width: 60%;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
+h1{
+    margin: 5% 0;
+    font-size: 3em;
+
+}
+h2{
+    margin: 2% 0;
+    font-size: 1.8em;
+}
+
+h3{
+    margin: 2% 0;
+    font-size: 1.6em;
+}
+
+.contact{
+    font-size: 1.2em;
+}
+
 .contact li{
     list-style: none;
+}
+
+.map{
+    height: 40vh;
+    width: 100%;
+    margin-top: auto;
 }
