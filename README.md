@@ -1,2 +1,2 @@
 # underConstructionTemplate
-A simple Html/CSS responsive template to use as an under-construction page.
+A simple HTML/CSS responsive template to use as an under-construction page.
