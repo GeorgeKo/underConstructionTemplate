@@ -101,3 +101,13 @@ h3 {
         transform: rotateY(180deg);
     }
 }
+
+@media (max-width: 768px){
+    body{
+        font-size: 80%;
+    }
+
+    .container{
+        width: 80%;
+    }
+}
